@@ -11,12 +11,12 @@ namespace DotNetSpiderDemo
     {
         protected override void Handle(Page page)
         {
-            var totalMoviesElements = page.Selectable.SelectList(Selectors.XPath("//*[@id='content']/div/div[1]/ol/")).Nodes();
+            var totalMoviesElements = page.Selectable.SelectList(Selectors.XPath("//div[@class='item']")).Nodes();
             var results = new List<Movie>();
             foreach (var movieelement in totalMoviesElements)
             {
                 var movie = new Movie();
-                movie.Name = movieelement.Select(Selectors.XPath(".//span[@class='title']/@class")).GetValue();
+                movie.Name = movieelement.Select(Selectors.XPath(".//span[@class='title']")).GetValue();
                 results.Add(movie);
 
             }

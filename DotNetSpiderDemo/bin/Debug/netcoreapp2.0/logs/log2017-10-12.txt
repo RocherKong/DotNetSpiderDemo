@@ -1,3 +1,21 @@
 [20171012 09:25:59][DOUBAN_20171012092558][Info] Build internal component...
 [20171012 09:25:59][DOUBAN_20171012092558][Info] Add start urls to scheduler, count 1.
 [20171012 09:25:59][DOUBAN_20171012092558][Trace] Left 1 Success 0 Error 0 Total 1 Dowload 0 Extract 0 Pipeline 0
+[20171012 09:43:04][DOUBAN_20171012094303][Info] Build internal component...
+[20171012 09:43:04][DOUBAN_20171012094303][Info] Add start urls to scheduler, count 1.
+[20171012 09:43:04][DOUBAN_20171012094303][Trace] Left 1 Success 0 Error 0 Total 1 Dowload 0 Extract 0 Pipeline 0
+[20171012 09:43:10][DOUBAN_20171012094303][Trace] Left 0 Success 0 Error 0 Total 1 Dowload 445 Extract 0 Pipeline 0
+[20171012 09:43:17][DOUBAN_20171012094303][Trace] Left 0 Success 0 Error 0 Total 1 Dowload 445 Extract 0 Pipeline 0
+[20171012 09:43:19][DOUBAN_20171012094303][Info] Crawl: https://movie.douban.com/top250 success.
+[20171012 09:43:24][DOUBAN_20171012094303][Trace] Left 0 Success 1 Error 0 Total 1 Dowload 445 Extract 7162 Pipeline 3
+[20171012 09:43:25][DOUBAN_20171012094303][Info] Waiting for monitor exit.
+[20171012 09:43:29][DOUBAN_20171012094303][Trace] Left 0 Success 1 Error 0 Total 0 Dowload 445 Extract 7162 Pipeline 3
+[20171012 09:43:29][DOUBAN_20171012094303][Info] Crawl complete, cost: 20.7603015 seconds.
+[20171012 09:44:10][DOUBAN_20171012094410][Info] Build internal component...
+[20171012 09:44:10][DOUBAN_20171012094410][Info] Add start urls to scheduler, count 1.
+[20171012 09:44:10][DOUBAN_20171012094410][Trace] Left 1 Success 0 Error 0 Total 1 Dowload 0 Extract 0 Pipeline 0
+[20171012 09:44:13][DOUBAN_20171012094410][Info] Crawl: https://movie.douban.com/top250 success.
+[20171012 09:44:15][DOUBAN_20171012094410][Trace] Left 0 Success 1 Error 0 Total 1 Dowload 512 Extract 822 Pipeline 3
+[20171012 09:44:18][DOUBAN_20171012094410][Info] Waiting for monitor exit.
+[20171012 09:44:20][DOUBAN_20171012094410][Trace] Left 0 Success 1 Error 0 Total 0 Dowload 512 Extract 822 Pipeline 3
+[20171012 09:44:20][DOUBAN_20171012094410][Info] Crawl complete, cost: 8.2306611 seconds.
