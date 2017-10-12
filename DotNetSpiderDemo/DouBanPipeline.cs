@@ -19,7 +19,7 @@ namespace DotNetSpiderDemo
                 {
                     count++;
                     builder.Append($" [MoviesResult {count}] {entry.Name}");
-                    Console.WriteLine($" [MoviesResult {count}] {entry.Name}");
+                    Console.WriteLine($" [MoviesResult {count}] {entry.Name},{entry.Score},{entry.Description}");
                 }
             }
 
