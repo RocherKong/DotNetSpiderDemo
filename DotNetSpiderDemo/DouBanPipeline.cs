@@ -15,11 +15,11 @@ namespace DotNetSpiderDemo
             {
                 int count = 0;
                 StringBuilder builder = new StringBuilder();
-                foreach (var entry in resultItem.Results["MovieResult"])
+                foreach (var entry in resultItem.Results["MoviesResult"])
                 {
                     count++;
-                    builder.Append($" [MovieResult {count}] {entry.Name}");
-                    Console.WriteLine($" [MovieResult {count}] {entry.Name}");
+                    builder.Append($" [MoviesResult {count}] {entry.Name}");
+                    Console.WriteLine($" [MoviesResult {count}] {entry.Name}");
                 }
             }
 
